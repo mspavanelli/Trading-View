@@ -1,0 +1,14 @@
+#app {
+  background: $ice;
+  display: grid;
+  grid-template-rows: auto 1fr 60px;
+  height: 100vh;
+
+  footer {
+    background: $black;
+    color: $white;
+
+    display: grid;
+    place-content: center;
+  }
+}
